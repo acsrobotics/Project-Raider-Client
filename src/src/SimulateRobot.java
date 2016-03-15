@@ -22,7 +22,7 @@ public class SimulateRobot {
 		dtObj2 = client.getDataObject(dtObj2.getClass());
 		
 		RobotMap rbtMap = new RobotMap();
-		TypeAdapter.copy(rbtMap, dtObj1);
+		TypeBridge.copy(rbtMap, dtObj1);
 
 		
 	}

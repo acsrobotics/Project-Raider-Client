@@ -4,7 +4,7 @@ import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class TypeAdapter {
+public class TypeBridge {
 	
 	public static <T1, T2> void copy(T1 original, T2 newData){
 		

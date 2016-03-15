@@ -53,7 +53,7 @@ public class SocketClient<DataObjectType> {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public void updateConfigData(){
+	public void updateData(){
 		int retry = 0;
 		while(retry < 10){
 			try {

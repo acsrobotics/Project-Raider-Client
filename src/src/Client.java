@@ -59,8 +59,8 @@ public class Client {
 	}
 	
 	public void update(){
-		this.configSocketClient.updateConfigData();
-		this.visionSocketClient.updateConfigData();
+		this.configSocketClient.updateData();
+		this.visionSocketClient.updateData();
 	}
 	
 	@SuppressWarnings("unchecked")
