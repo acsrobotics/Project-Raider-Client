@@ -13,8 +13,7 @@ public class RobotMapMirror {
 	public Double MOTOR_OUTTAKE_SPEED;
 
 	public Double BUCKET_FOLD_SPEED,
-				  BUCKET_UNFOLD_SPEED,
-				  BUCKET_INTAKE_SPEED;
+				  BUCKET_UNFOLD_SPEED;
 	
 	//---------------------CLIMBER CONFIG--------------------//
 }

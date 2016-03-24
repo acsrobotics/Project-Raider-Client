@@ -10,7 +10,7 @@ public class SimulateRobot {
 	public static void main(String[] args) throws IOException, NoRouteToHostException{
 		
 		// change the ip name to 10.47.16.255 for the competition
-		Client client = new Client("192.168.1.255", 3003);
+		Client client = new Client("192.168.43.255", 3003);
 
 		// Data object for JSON config file
 		RobotMapMirror dtObj1 = new RobotMapMirror();
@@ -20,9 +20,9 @@ public class SimulateRobot {
 		
 		dtObj1 = client.getDataObject(dtObj1.getClass());
 		dtObj2 = client.getDataObject(dtObj2.getClass());
-		
 		RobotMap rbtMap = new RobotMap();
 		TypeBridge.copy(rbtMap, dtObj1);
+		System.out.println(RobotMap.BUCKET_FOLD_SPEED);
 
 		
 	}
